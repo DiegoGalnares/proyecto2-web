@@ -1,0 +1,461 @@
+*{
+	background: #FFAAAA;
+	margin: 0em;
+}
+
+/* NAVBAR CON DROPDOWN*/
+.nav-link, .navbar-collapse, .material-icons, .navbar-nav, .navbar{
+	background-color: #A12C2C !important;
+}
+.dropdownColor{
+	color: black !important;
+}
+.navbar-brand i{
+	font-size: 4rem;
+}
+.navbar-brand span{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.3rem;
+}
+.navbar-brand{
+	align-items: center;
+}
+.nav-item{
+	padding-left: 20px;
+	background: #A12C2C !important;
+}
+.navbar-nav .nav-item .nav-link{
+	font-family: 'Lato', sans-serif; 
+	font-size: 1.2rem;
+	font-weight: 500 !important;
+	color: black;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: white;
+	text-decoration: none;
+}
+
+nav .dropdown-menu{
+	background-color: white;
+	border-style: #fff 2px;
+	font-family: 'Lato', sans-serif; 
+	font-size: 1.2rem;
+	font-weight: 500 !important;
+	color: #fff !important;
+}
+nav .dropdown-item:hover{
+	background-color: lightgrey;
+
+}
+nav .dropdown-menu a{
+	padding: 4px;
+}
+/* FIN NAVBAR */
+
+.imagenes{
+	margin-top: 3em !important;
+	padding-bottom: 0em;
+	text-align: center;
+	display: none;
+
+}
+.imagenesLaterales{
+	width: 8em;
+	height: 5em;
+	padding-left: 0em;
+	padding-right: 0em;
+}
+#imagenPrincipal{
+	width: 12em;
+	height: 9em;
+}
+
+/* INTRODUCCION */
+.Musica{
+	padding-top: 2em;
+	padding-bottom: 2em;
+	align-content: center;
+	padding-left: 3em;
+	padding-right: 3em;
+
+}
+.tituloIntroduccion{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 47px;
+	text-align: center;
+	width: inline;
+	padding-bottom:
+
+}
+.parrafoIntroduccion{
+	padding-right: 24em;
+	padding-left: 24em;
+	padding-top: 0em;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 29px;
+	display: inline;
+}
+
+
+/* PUBLICACIONES */
+
+.publications{
+	margin: 0em;
+	padding-top: 0em;
+	padding-bottom: 1em;
+	background-color:  #FFAAAA;
+	background:  #FFAAAA !important;
+	text-align: center;
+}
+.publicationsText{
+	padding-bottom: .8em;
+	font-size: 33px;
+}
+.postPublication{
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color:  #FFFFFF;
+	text-align: center;
+	border: solid;
+}
+.postTitle{
+	background-color: white;
+	font-size: 32px;
+}
+.imgFormat{
+	width: 12em;
+	height: 12em;
+}
+.publicationText{
+	background-color: white;
+}
+
+.postComplete{
+	font-style: none;
+}
+.postComplete:hover{
+	color: red;
+	text-decoration-line: none;
+}
+
+
+/* FORMULARIOS */
+.registerForm{
+	text-align: center;
+	padding: 2em;
+	padding-top: 4em; 
+	background-color: white;
+	background: #FFAAAA;
+}
+
+.formDiv{
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 5px 10px 40px #000;
+}
+.formDiv p{
+	background-color: white;
+}
+.fromRegister2Login:hover{
+	color: red;
+	text-underline-position: none;
+}
+.titleRegister{
+	background-color: white;
+	font-size: 35px
+}
+
+.control{
+	background-color: white;
+	width: 95%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+	font-family: 'calibri';
+	font-size: 18px; 
+	color: black;
+}
+.boton{
+	width: 98%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white; 
+	margin: 16px 0;
+	font-size: 16px
+}
+.boton:hover{
+	background: green;
+}
+
+/* FOOTER */
+
+.footer{
+	background-color: #A12C2C;
+	height: 5em;
+}
+.imagenesFooter{
+	width: 2em;
+	height: 2em;
+	background-color: #A12C2C;
+}
+.red{
+	padding-top: 1em;
+	background-color: #A12C2C;
+}
+.rowEspecial{
+    /*
+    width: 100%;
+    height: 81px;*/
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+.creditos{
+	background-color: #A12C2C;
+	font-size: 15px;
+	color: white;
+}
+.tituloFooter{
+	background-color: #A12C2C;
+	font-size: 19px;
+	color: white;
+}
+.musicFooterLogo{
+	background-color: #A12C2C;
+	width: 6em;
+	height: 6em;
+}
+
+.categoriasText{
+	text-align: center;
+	font-size: 45px;
+}
+
+/* PERFIL */
+.mainProfile{
+	background: #FFAAAA !important;
+	background-color: #FFAAAA !important;
+}
+.profile{
+	background-color: white !important;
+	border: solid;
+	box-shadow: 10px 10px 50px 10px;
+	margin: 16px;
+	padding:  5px;
+	text-align: center;
+}
+.profile h1{
+	background-color: white;
+}
+.profilePicture{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 150px;
+	height: 150px;
+	background-color: white;
+}
+.controlProfile{
+	background-color: white;
+	color: black;
+	width: 80%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+	font-family: 'calibri';
+	font-size: 18px; 
+	background: white;
+}
+.profileText{
+	font-size: 12px;
+	background-color: white;
+}
+.profileTextC{
+	background-color: white;
+	background: white;
+	font-size: 20px;
+}
+
+/* PUBLICACIONES */
+.publicationBox{
+	background-color: white;
+}
+.publicationBox h2{
+	background-color: white;
+}
+.publicationsPage{
+	border: solid;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 8px 8px 50px 10px;
+	background-color: white;
+	text-align: center;
+}
+.publicationsPage h1{
+	background-color: white;
+}
+.publicationBox input{
+	background-color: white;
+}
+.publicationInputDT{
+	width: 45%;
+	background-color: white;
+}
+.publicationInputTitle{
+	width: 90%;
+	background-color: white;
+}
+.publicationInputContent{
+	width: 90%;
+	height: 100px;
+	background-color: white;
+}
+/* DESCUBRE */
+.discoverBox{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+/* PAGINA DE LA PUBLICACION */
+.publicationComplete{
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+.publicationCompleteImg{
+	width: 400px;
+}
+.publicationCompleteText{
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: left !important;
+}
+
+
+/* BOTON */
+.botonentrega{
+	background-color: #1F53C5 !important;
+}
+
+.createIndex{
+	text-align: center;
+}
+
+.datosPublicacion{
+	background-color: #FFAAAA;
+	
+}
+
+.formPublicacion{
+	display: inline-block !important;
+	border: solid;
+	background-color: #00FF99;
+	color: black;
+	width: 60px;
+}
+
+.formPublicacion:hover{
+	text-decoration-line: none;
+	color: brown;
+}
+/* COMENTARIOS */
+
+.comentarios{
+	border: solid;
+	margin: 80px;
+	background-color: white;
+	background: white;
+	text-align: center;
+}
+
+.comentariosAnteriores{
+	background-color: white;
+}
+
+.comentarioIndividual{
+	box-shadow: 5px 5px 20px 0px;
+	background-color: white;
+
+}
+
+.nombrecomentario{
+	text-decoration: underline;
+	font-size: 20px;
+	background-color: white;
+}
+
+.comentarioContent{
+	padding-left: 20px;
+	background-color: white;
+}
+
+.crearComentario{
+	text-align: center;
+	background-color: white;
+}
+
+.formComentario{
+	background-color: white;
+}
+.nombreComentario{
+	font-size: 30px;
+	background-color: white;
+}
+
+.comentario{
+	width: 95%;
+	background-color: white;
+}
+
+.submitComentario{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.comentariosTitulo{
+	text-align: center;
+}
+
+/* BIENVENIDA */
+.bienvenida{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.welcomeTitle{
+	font-size: 70px;
+	font-family: 'Hachi Maru Pop', cursive;
+}
+.botonesBienvenida{
+	font-size: 30px;
+	border: solid;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: brown;
+	color: black;
+	border-radius: 15px;
+}
+
+.botonesBienvenida:hover{
+	text-decoration-line: none;
+	color: lightblue;
+}
+
+.botonBoxWelcome{
+	margin-top: 50px;
+}

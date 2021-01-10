@@ -118,6 +118,8 @@ class PublicacionController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $publicacion=Publicacion::findOrFail($id);
+        $publicacion->delete();
+        return redirect('publicar.index');       
     }
 }

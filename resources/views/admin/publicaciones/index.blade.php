@@ -25,7 +25,11 @@
 				<br>
 				<a href="{{route('publicar.show',$publicacion->id)}}" class="formPublicacion">Ver</a>
 				<a href="{{route('publicar.edit',$publicacion->id)}}" class="formPublicacion">Editar</a>
-				<a href="" class="formPublicacion">Borrar</a>
+				<form method="POST" action="{{route('publicar.destroy',$publicacion->id)}}" class="formPublicacion2" >
+					@method('DELETE')
+					@csrf
+					<input type="submit" class="formPublicacionText2" value="Borrar">
+				</form>
 			</p>
 		</div> 
 		@endforeach

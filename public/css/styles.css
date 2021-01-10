@@ -371,6 +371,18 @@ nav .dropdown-menu a{
 	text-decoration-line: none;
 	color: brown;
 }
+
+.formPublicacion2{
+	display: inline-block !important;
+	border: solid;
+	background-color: #00FF99;
+	color: black;
+	width: 60px;
+}
+
+.formPublicacionText2{
+	background-color: brown;
+}
 /* COMENTARIOS */
 
 .comentarios{

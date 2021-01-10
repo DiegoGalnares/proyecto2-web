@@ -18,15 +18,13 @@
 	<div class="comentarios">
 		<div class="comentariosAnteriores">
 			<h1 class="comentariosTitulo">Comentarios</h1>
-			@foreach($comentarios as $comentarios)
-			@if($comentarios->publicacion_id == $publicacion->id)
+			@foreach($comentarios as $comentario)
+			@if($comentario->publicacion_id == $publicacion->id)
 				<div class="comentarioIndividual">
-					<h2 class="nombrecomentario">{{$comentarios->name}}:</h2>
-					<p class="comentarioContent">-{{$comentarios->comentario}}</p>
+					<h2 class="nombrecomentario">{{$comentario->name}}:</h2>
+					<p class="comentarioContent">- {{$comentario->comentario}}</p>
 				</div>
-			@else
-				
-			@endif
+				@endif
 			@endforeach
 		</div>
 		@if(auth()->guest())

@@ -45,8 +45,7 @@ class ComentarioController extends Controller
         $comentario->name=Auth()->user()->name;
         $comentario->comentario=$request->comentario;     
         $comentario->save();
-        $publicaciones=$publicaciones= Publicacion::all();
-        return view('comentarios.show', ['publicacion'=>$publicaciones]);
+        return back();
 
     }
 
@@ -58,7 +57,7 @@ class ComentarioController extends Controller
      */
     public function show($id)
     {
-        $comentarios= Publicacion::all();
+        $comentarios= Comentario::all();
         $publicaciones=Publicacion::findOrFail($id);
         return view('comentarios.show', ['publicacion'=>$publicaciones], ['comentarios'=>$comentarios]);
     }
